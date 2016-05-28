@@ -9,6 +9,7 @@ Assume that the square directly North from (x, y) is (x, y+1).
 ------------------------------------------------------------------------------------------
 
 Assumption I made:
+
 	If a rover hits the edge it will not cause an error.
 		It will continue to run the rest of the instruction set.
 		Designed it this way to give the rover some intelligence
@@ -33,10 +34,14 @@ Assumption I made:
 To run this program 
 
 $ cd ../MarsRover.java
+
 $ javac MarsRover.java
+
 $ javac Main.java
+
 $ java Main
 
 After performing those steps the program's prompts will display.
+
 Follow those prompts for results.
 		
